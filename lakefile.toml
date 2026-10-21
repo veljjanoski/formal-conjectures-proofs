@@ -1,0 +1,16 @@
+name = "fc_proofs"
+defaultTargets = ["FcProofs"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+# The statements are imported from google-deepmind/formal-conjectures at a fixed commit,
+# so each proof is checked against the exact repository statement.
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "90d18f666eb98adec4eee4d12f1d37e30b4eb204"
+
+[[lean_lib]]
+name = "FcProofs"
