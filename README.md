@@ -15,6 +15,7 @@ example : type_of% Erdos588.erdos_588.variants.trivial_upper := trivial_upper
 | File | Statement in formal-conjectures | Result |
 |---|---|---|
 | [`FcProofs/Erdos588.lean`](FcProofs/Erdos588.lean) | `Erdos588.erdos_588.variants.trivial_upper` | $f_k(n) \cdot k(k-1) \leq n(n-1)$ for $k \geq 2$ |
+| [`FcProofs/Erdos670.lean`](FcProofs/Erdos670.lean) | `Erdos670.erdos_670.variants.choose_two` | $n \neq 2$ points with separated distances have diameter $\geq \binom{n}{2}$ |
 
 `#print axioms` for every proved theorem gives only `propext`, `Classical.choice` and
 `Quot.sound`.
