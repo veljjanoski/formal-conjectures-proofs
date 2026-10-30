@@ -1,5 +1,6 @@
 import FcProofs.Erdos588
 import FcProofs.Erdos670
+import FcProofs.Erdos935
 
 /-!
 # Proofs for formal-conjectures

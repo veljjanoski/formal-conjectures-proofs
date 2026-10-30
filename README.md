@@ -16,6 +16,7 @@ example : type_of% Erdos588.erdos_588.variants.trivial_upper := trivial_upper
 |---|---|---|
 | [`FcProofs/Erdos588.lean`](FcProofs/Erdos588.lean) | `Erdos588.erdos_588.variants.trivial_upper` | $f_k(n) \cdot k(k-1) \leq n(n-1)$ for $k \geq 2$ |
 | [`FcProofs/Erdos670.lean`](FcProofs/Erdos670.lean) | `Erdos670.erdos_670.variants.choose_two` | $n \neq 2$ points with separated distances have diameter $\geq \binom{n}{2}$ |
+| [`FcProofs/Erdos935.lean`](FcProofs/Erdos935.lean) | `Erdos935.erdos_935.parts.ii`, `Erdos935.erdos_935.variants.ell_two`, `Erdos935.erdos_935.variants.mahler` | $\limsup_n Q_2(n(n+1)\cdots(n+\ell))/n^2$ is infinite for $\ell \geq 2$ and at least $1$ for $\ell \geq 1$ |
 
 `#print axioms` for every proved theorem gives only `propext`, `Classical.choice` and
 `Quot.sound`.
