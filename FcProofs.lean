@@ -1,6 +1,7 @@
 import FcProofs.Erdos588
 import FcProofs.Erdos670
 import FcProofs.Erdos935
+import FcProofs.OeisA060841
 
 /-!
 # Proofs for formal-conjectures
