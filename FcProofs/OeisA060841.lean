@@ -15,8 +15,8 @@ Since $1/\operatorname{lcm}(i,j) = \gcd(i,j)/(ij)$ and, by Gauss's identity
 $\sum_{d \mid m} \varphi(d) = m$, the gcd matrix factors as
 $E \cdot \operatorname{diag}(\varphi) \cdot E^{\mathsf T}$ with $E$ the unitriangular divisibility
 matrix $E_{id} = [d \mid i]$ (Smith's determinant), we get
-$1/\det = (n!)^2 / \prod_{k \leq n} \varphi(k)$. For $n \leq 38$ the divisibility is decided by
-computation. For the other $n$ the obstruction is $2$-adic: from
+$1/\det = (n!)^2 / \prod_{k \leq n} \varphi(k)$. For $n \in \{1, \dots, 34, 36, 38\}$ the
+divisibility is decided by computation. For every other $n$ the obstruction is $2$-adic: from
 $v_2(\varphi(k)) = \max(v_2(k) - 1, 0) + \sum_{p \mid k \text{ odd}} v_2(p - 1)$, the odd primes up
 to $97$ and the powers $4, \dots, 128$ give $v_2(\prod \varphi(k)) \geq c(n)$ with
 $c(n) = \sum_p v_2(p-1) \lfloor n/p \rfloor + \sum_{j=2}^{7} \lfloor n/2^j \rfloor$, while
