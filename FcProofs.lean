@@ -1,3 +1,4 @@
+import FcProofs.CongruentNumberOne
 import FcProofs.Erdos588
 import FcProofs.Erdos670
 import FcProofs.Erdos935
